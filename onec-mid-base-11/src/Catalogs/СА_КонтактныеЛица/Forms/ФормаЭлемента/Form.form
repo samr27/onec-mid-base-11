@@ -107,6 +107,10 @@
   <items xsi:type="form:FormField">
     <name>Владелец</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -315,6 +319,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Заметка</segments>
     </dataPath>
+    <titleLocation>Left</titleLocation>
     <extendedTooltip>
       <name>ЗаметкаРасширеннаяПодсказка</name>
       <id>21</id>
@@ -349,6 +354,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <multiLine>true</multiLine>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
